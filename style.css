@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(to right, #f8cdda, #1d2b64);
+    color: #333;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header,
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-bottom: 2px solid #fff;
+    padding-bottom: 10px;
+}
+
+.lyrics {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.4em;
+    margin-bottom: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+p:hover {
+    transform: scale(1.05);
+}
+
+.sad {
+    font-family: 'Playfair Display', serif;
+    color: #e74c3c;
+    font-weight: 700;
+}
+
+.longing {
+    font-family: 'Playfair Display', serif;
+    color: #3498db;
+    font-style: italic;
+}
+
+.peaceful {
+    font-family: 'Playfair Display', serif;
+    color: #2ecc71;
+    text-decoration: underline;
+}
+
+.curious {
+    font-family: 'Playfair Display', serif;
+    color: #f1c40f;
+    letter-spacing: 1px;
+}
+
+footer p {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
+    color: #fff;
+    margin-top: 20px;
+}
